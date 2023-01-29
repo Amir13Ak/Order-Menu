@@ -3,7 +3,7 @@ import classes from './MealsItems.css';
 
 const MealsItems = (props) =>{
 
-    const price = `$${props.price.toFixed(2)}`
+    const price = `${props.price.toFixed(2)}`
     return(
         <li className={classes.meal}>
             <div>
